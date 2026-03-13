@@ -1,0 +1,57 @@
+
+.header{
+  background-image: url("../../assets/images/Hero-Backround.jpeg");
+  padding-top: 50px;
+  padding-bottom: 116px;
+}
+.header__container{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo{
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60%;
+  position: relative;
+}
+.header__logo span{
+  font-size: 27px;
+  line-height: 148%;
+  letter-spacing: 0.26em;
+}
+.header__logo::after{
+  content:' ';
+  background-image: url(../../assets/icons/Lawncare.svg) ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -5px;
+  left: -90px;
+  width: 80px;
+  height: 80px;
+}
+.header__link{
+  margin-top: 65px;
+  border-radius: 59px;
+  padding: 20px 50px;
+
+  background: rgba(0, 0, 0, 0.5);
+
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: #fff;
+transition: 0.2s ease;
+cursor: pointer;
+}
+.header__link:hover{
+  color: var(--color-green);
+}
+.header__title{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  cursor: default;
+}
