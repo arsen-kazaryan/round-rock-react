@@ -55,3 +55,29 @@ cursor: pointer;
   margin-bottom: 100px;
   cursor: default;
 }
+
+@media (max-width:1015px){
+  .header__title{
+    font-size:100px ;
+  }
+  .header__logo::after{
+    display: none;
+  }
+}
+@media (max-width:400px){
+  .header{
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
+  .header__logo{
+    text-align: center;
+    line-height: 103%;
+  }
+  .header__title{
+    font-size:80px ;
+    margin-bottom:40px ;
+  }
+  .header__link{
+    margin-top: 40px;
+  }
+}
