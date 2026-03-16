@@ -1,5 +1,5 @@
 .services__container{
-  padding: 70px 0;
+  padding: 40px 0;
   color: var(--color-green);
 }
 .services__title{
@@ -71,4 +71,19 @@
   transform: translateX(-50px);
   width: 80px;
   height: 80px;
+}
+
+@media (max-width:1150px) {
+  .services__item {
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .servisec__poster{
+    overflow: hidden;
+    max-width: 350px;
+  }
+  .about-us__title{
+    line-height: 100%;
+  }
 }
