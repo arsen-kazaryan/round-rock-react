@@ -1,4 +1,3 @@
-import "./Main.css"
 import Services from "../sections/Services";
 import AboutUs from "../sections/AboutUs";
 import Testymonials from "../sections/Testymonials";

@@ -73,9 +73,9 @@
   height: 80px;
 }
 
-@media (max-width:1150px) {
+@media (max-width:1170px) {
   .services__item {
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
     flex-wrap: wrap;
   }
